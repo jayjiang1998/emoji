@@ -1,0 +1,172 @@
+body, html {
+  overflow: hidden;
+  background-color: black;
+
+}
+
+a:link {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:visited {
+    color: yellow;
+    text-decoration: none;
+}
+
+ 
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+ 
+a:active {
+    color: yellow;
+    text-decoration: none;
+}
+
+h1 {
+  font-family: "Franklin Gothic", Arial, sans-serif;
+  font-weight: bold;
+  
+}    
+.silhouette{
+ position:absolute;
+height: 250px;
+  width: 250px;
+  top: 460px;
+  left:497px;
+  z-index: -10;
+
+}
+
+.text1{
+    position:absolute;
+    left:360px;
+    top:400px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color:white;
+
+}
+.text2{
+    position:absolute;
+    left:590px;
+    top:490px;
+    font-size: 100px;
+    letter-spacing: 2px;
+    z-index: -9;
+    color:white;
+
+}
+.text3{
+    position:absolute;
+    left:360px;
+    top:370px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color:white;
+
+}
+
+.button{
+    position:absolute;
+    left:1000px;
+    top:600px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    z-index: 2;
+    color: yellow;
+
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.draggable-image {
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 170px;
+height: 170px;
+
+/*  border: solid green 1px;*/
+}
+
+.draggable-image img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+
+.draggable-image.heart{
+  position: absolute;
+  /*width: 200px;
+  top: 200px;*/
+  left: -358px; top: 137px;
+  z-index: 3;
+}
+
+.draggable-image.tear{
+  position: absolute;
+/*  width: 200px;
+  top: 200px;*/
+  left: 139px; top: 139px;
+  z-index: 4;
+}
+.draggable-image.happy{
+  position: absolute;
+  /*width: 200px;
+  top: 200px;*/
+  left: -491px; top: -19px;
+  z-index: 5;
+}
+
+.draggable-image.comfort{
+  position: absolute;
+ /* width: 200px;
+  top: 200px;*/left: -475px; top: -223px;
+  z-index: 6;
+}
+.draggable-image.smile{
+  position: absolute;
+  /*width: 200px;
+  top: 200px;*/left: -307px; top: -329px;
+  z-index: 7;
+}
+.draggable-image.normal{
+  position: absolute;
+  left: -102px; top: -350px;
+ /* width: 200px;
+  top: 200px;*/
+  z-index: 8;
+}
+
+.draggable-image.sad{
+  position: absolute;
+  left: 99px; top: -331px;
+/*  width: 200px;
+  top: 200px;*/
+  z-index: 9;
+}
+.draggable-image.weary{
+  position: absolute;left: 243px; top: -211px;
+ /* width: 200px;
+  top: 200px;*/
+  z-index: 10;
+}
+.draggable-image.crying{
+  position: absolute;left: 270px; top: -19px;
+ /* width: 200px;
+  top: 200px;*/
+  z-index: 11;
+}
+
+
